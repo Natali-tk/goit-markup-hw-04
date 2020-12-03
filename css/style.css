@@ -104,6 +104,7 @@ header{
 .contact-nav{
     display:flex;
     margin-left:auto;
+   
 }
 .site-nav .item + .item{
     margin-left: 50px;
@@ -131,9 +132,15 @@ header{
   
 }
 .contact-icon{
+    fill: var(--primary-text-color);
+}
+.contact-icon.mail{
     width: 16px;
     height: 12px;
-    fill: var(--primary-text-color);
+}
+.contact-icon.tel{
+    width: 10px;
+    height: 16px;
 }
 /* Секция герой */
 .hero{
