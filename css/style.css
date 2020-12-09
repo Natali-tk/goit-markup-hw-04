@@ -63,9 +63,6 @@ header .container{
     justify-content: space-between;  
 }
 header{
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -265,9 +262,7 @@ height: 70px;
 /* Секция  Наша команда */
 .section-participant{
     background-color: #F5F4FA;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 .participant-list .title{
     color: var(--title-text-color);  
@@ -391,9 +386,6 @@ height: 70px;
 /* Footer */
 footer{
     background-color: var(--first-bg-color);
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 footer .container{
     display: flex;
@@ -422,12 +414,9 @@ address {
     font-style: normal;
     padding-top:60px;
     padding-bottom: 60px;
-
 }
 
-.footer a:focus {
-    color:var(--accent-btn-color);   
-}
+
 .social-box{
     display: block;
     justify-content: flex-start;
